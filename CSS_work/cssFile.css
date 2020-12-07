@@ -547,11 +547,8 @@ img{
 }
 
 @media screen and (min-width: 1024px){
-    .l-header{
-        background-color: red;
-    }
+    
     .nav_logo{
-        padding-top: 10px;
         font-size: 30px;
     }
 
