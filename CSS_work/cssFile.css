@@ -547,7 +547,9 @@ img{
 }
 
 @media screen and (min-width: 1024px){
-    
+    .l-header{
+        padding-top: 10px;
+    }
     .nav_logo{
         font-size: 30px;
     }
