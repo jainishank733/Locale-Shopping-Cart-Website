@@ -663,12 +663,16 @@ background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 
     .newsletter_input{
         height: 2.7rem;
+        padding-right: 1rem;
     }
 
     .newsletter_form .button{
         height: 0.75rem;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto 1rem;
+    }
+
+    .sponsors_logo img{
+        width: 3rem;
     }
 
 }
