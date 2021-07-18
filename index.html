@@ -14,21 +14,21 @@
 <body>
 
     <header class="l-header">
-        <nav class="nav bd-grid">
+        <nav class="nav">
             <div>
-                <a href="#" class="nav_logo">Local Shopping Cart Website</a>
+                <a href="#" class="nav_logo">Shopping Cart Website</a>
             </div>
 
-            <div class="nav_menu" id="nav-menu">
+            <div class="nav_menu">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
-                    <li class="nav_item"><a href="#featured" class="nav_link">Featured</a></li>
-                    <li class="nav_item"><a href="#new" class="nav_link">New</a></li>
-                    <li class="nav_item"><a href="#subscribed" class="nav_link">Subscribed</a></li>
+                    <li class="nav_item"><a href="#home" id="active">Home</a></li>
+                    <li class="nav_item"><a href="#featured">Featured</a></li>
+                    <li class="nav_item"><a href="#new">New</a></li>
+                    <li class="nav_item"><a href="#subscribed">Subscribed</a></li>
                 </ul>
             </div>
 
-            <div class="adjust_Cart">
+            <div>
                 <i class="bx bx-cart nav_cart"></i>
                 <i class="bx bx-menu nav_toggle" id="nav-toggle"></i>
             </div>
@@ -37,10 +37,10 @@
     </header>
 
     <main class="l-main">
-        <section class="home" id="home">
-            <div class="home_container bd-grid">
+        <section class="home">
+            <div class="home_container">
                 <div class="home_data">
-                    <h1 class="home_title">SHOPART<br><span>Presents</span></h1>
+                    <h1 class="home_title" data-text="SHOPART"><br><span>Presents</span></h1>
                     <a href="#featured" class="button">GO SHOPPING</a>
                 </div>
 
@@ -49,7 +49,7 @@
         </section>
 
         <section class="collection section">
-            <div class="collection_container bd-grid">
+            <div class="collection_container" style="max-width: 100%;">
                 <div class="collection_box">
                     
                     <div class="collection_data">
@@ -78,7 +78,7 @@
             <h2 class="section-title">FEATURED PRODUCTS</h2>
             <a href="#" class="section-all">View All</a>
 
-            <div class="featured_container bd-grid">
+            <div class="featured_container">
                 
                 <div class="featured_product">
                     <div class="featured_box">
@@ -152,7 +152,7 @@
             <h2 class="section-title">NEW PRODUCTS</h2>
             <a href="#" class="section-all">View All</a>
 
-            <div class="new_container bd-grid">
+            <div class="new_container">
                 <div class="new_box">
                     <img src="assets/img/new1.png" alt="" class="new_img">
 
@@ -208,13 +208,13 @@
 
 
         <section class="newsletter section" id="subscribed">
-            <div class="newsletter_container bd-grid">
+            <div class="newsletter_container">
                 <div class="newsletter_subscribe">
                     <h2 class="section_title">CONNECT TO US</h2>
                     <p class="newsletter_description">Let's join together</p>
                 
                     <form action="" class="newsletter_form">
-                        <input type="text" class="newsletter_input" placeholder="Enter your email">
+                        <input type="text" class="newsletter_input" placeholder="Enter your email" style="color: black;font: bold;font-size: x-large;">
                         <a href="#" class="button">SUBSCRIBE</a>
                     </form>
                 </div>
@@ -223,7 +223,7 @@
 
 
         <section class="sponsors section">
-            <div class="sponsors_container bd-grid">
+            <div class="sponsors_container">
                 <div class="sponsors_logo">
                     <img src="assets/img/logo1.png" alt="">
                 </div>
@@ -236,13 +236,22 @@
                 <div class="sponsors_logo">
                     <img src="assets/img/logo4.png" alt="">
                 </div>
+                <div class="sponsors_logo">
+                    <img src="assets/img/logo5.png" alt="">
+                </div>
+                <div class="sponsors_logo">
+                    <img src="assets/img/logo6.png" alt="">
+                </div>
+                <div class="sponsors_logo">
+                    <img src="assets/img/logo7.png" alt="">
+                </div>
             </div>
         </section>
 
     </main>
 
     <footer class="footer section">
-        <div class="footer_container bd-grid">
+        <div class="footer_container">
             <div class="footer_box">
                 <h3 class="footer_title">SHOP ART</h3>
                 <p class="footer_deal">Products Store</p>
