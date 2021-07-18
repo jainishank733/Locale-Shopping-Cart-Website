@@ -596,6 +596,10 @@ background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
         display: flex;
     }
 
+    .home_container{
+        height: 30rem;
+    }
+
     .nav_menu ul li{
         display: block;
     }
