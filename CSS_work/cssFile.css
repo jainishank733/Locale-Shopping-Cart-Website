@@ -610,7 +610,7 @@ background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 
     .nav_toggle, .nav_cart{
         font-size: 1.5rem;
-        padding-right: 1rem;
+        padding-right: 0.6rem;
     }
 
     .home_title{
@@ -666,7 +666,9 @@ background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
     }
 
     .newsletter_form .button{
-        height: 0.84rem;
+        height: 0.75rem;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
 }
