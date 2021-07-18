@@ -84,8 +84,8 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #2f4353;
-    background-image: linear-gradient(315deg, #92adc4 10%, #d2ccc4 74%);
+    background-color: #a7040c;
+    background-image: linear-gradient(315deg, #d4103a 10%, #69101c 64%);
 }
 
 .nav{
@@ -135,26 +135,26 @@ img{
 }
 
 .l-main{
-    background-color: #d9d9d9;
-    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+    background-color: #e9adad;
+    background-image: linear-gradient(315deg, #d9d9d9 0%, #f8dbdb 74%);
     align-items: center;
     display: inline-block;
     width: 100%;
 }
 
 .home{
-    background-color: #b8c6db;
-    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); 
+    background-color: red;
+    background-image: linear-gradient(315deg, red 10%, #f5f7fa 74%); 
 }
 
 .home_container{
     height: calc(100vh - var(--header-height));
+    width: 100%;
     align-items: center;
 }
 
 .home_data{
     text-align: center;
-    width: 60%;
     height: 80%;
     padding-top: 6rem;
     margin: auto;
@@ -162,6 +162,7 @@ img{
 
 .home_title{
     text-align: center;
+    width: 90%;
     font-size: var(--big-font-size);
     line-height: 1;
     letter-spacing: .5rem;
@@ -177,7 +178,7 @@ img{
     width: 0;
     height: fit-content;
     color: rgb(100, 105, 104);
-    border-right: 2px solid black;
+    border-right: 0px solid black;
     overflow: hidden;
     animation: animate 6s linear infinite;
 }
@@ -188,7 +189,7 @@ img{
       width:0%;
     }
     70%,90%{
-      width:100%;
+      width:98%;
       color: rgb(221, 194, 144);
     }
 }
@@ -247,7 +248,7 @@ img{
     padding: 0 5rem;
     margin: 1rem auto;
     background-color: #fffffc;
-    background-image: linear-gradient(315deg, #fffffc 0%, #beb7a4 74%);
+    background-image: linear-gradient(315deg, #fffffc 0%, #fce0e4 74%);
     transition: 0.3s;
     border-radius: 50px;
     box-shadow: 10px 10px 5px rgb(110, 107, 107);
@@ -320,7 +321,7 @@ img{
     display: flex;
     justify-content: center;
     background-color: #fffffc;
-    background-image: linear-gradient(315deg, #fffffc 0%, #beb7a4 74%);
+    background-image: linear-gradient(315deg, #ebc7c7a2 0%, #beb7a4 74%);
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(99, 96, 96);
 }
@@ -655,7 +656,6 @@ background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 
     .home{
         padding-top: 10rem;
-        width:90%;
     }
        
     .home_title::before{
