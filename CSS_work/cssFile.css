@@ -655,6 +655,7 @@ background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 
     .home{
         padding-top: 10rem;
+        width:90%;
     }
        
     .home_title::before{
