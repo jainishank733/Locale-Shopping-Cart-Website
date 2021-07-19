@@ -84,8 +84,8 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #a7040c;
-    background-image: linear-gradient(315deg, #d4103a 10%, #69101c 64%);
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #ecc371 30%, #ecb023 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #dac188 62.5%, #d8c79e 100%);
 }
 
 .nav{
